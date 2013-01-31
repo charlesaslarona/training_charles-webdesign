@@ -1,0 +1,23 @@
+<widget>
+  <widgetType>template</widgetType>
+  <widgetClass>tooltwist.wbd.AjaxZoneWidget</widgetClass>
+  <linkedWidget>toolbox.ajaxZone</linkedWidget>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Ajax Zone</label>
+  <description>An AjaxZone defines the content for a region of a page, similar to a regular zone,
+  except that the region is loaded as a navpoint using AJAX. This allows that region of the page
+  to be updated multiple times without redrawing the entire page.</description>
+  <cell>
+  <widget>
+    <widgetClass>tooltwist.wbd.GridWidget</widgetClass>
+    <idWithinRootWidget>0</idWithinRootWidget>
+    <linkedWidget>toolbox.grid</linkedWidget>
+    <cols>1</cols>
+    <rows>1</rows>
+    <width></width>
+    <height></height>
+    <align>center</align>
+    <valign>top</valign>
+  </widget>
+  </cell>
+</widget>
